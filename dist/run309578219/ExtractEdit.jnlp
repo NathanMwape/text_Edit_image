@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ExtractEdit.jnlp">
+  <information>
+    <title>ExtractEdit</title>
+    <vendor>NATHAN</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ExtractEdit.jar" size="48241975" download="eager" />
+    <jar href="lib\bridj-0.7.0.jar" size="935929" download="eager" />
+    <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
+    <jar href="lib\jai-imageio-core-1.4.0.jar" size="628053" download="eager" />
+    <jar href="lib\jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="lib\jul-to-slf4j-1.7.25.jar" size="4596" download="eager" />
+    <jar href="lib\lept4j-1.6.4.jar" size="7038389" download="eager" />
+    <jar href="lib\log4j-over-slf4j-1.7.25.jar" size="23645" download="eager" />
+    <jar href="lib\logback-classic-1.2.3.jar" size="290339" download="eager" />
+    <jar href="lib\logback-core-1.2.3.jar" size="471901" download="eager" />
+    <jar href="lib\slf4j-api-1.7.2.jar" size="26083" download="eager" />
+    <jar href="lib\slf4j-api-1.7.25.jar" size="41203" download="eager" />
+    <jar href="lib\tess4j-3.4.8.jar" size="5212199" download="eager" />
+    <jar href="lib\tesseract-5.2.0-1.5.8.jar" size="58699" download="eager" />
+    <jar href="lib\webcam-capture-0.3.12.jar" size="428314" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ExtractEdit" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="extractedit.ExtractEdit"  name="ExtractEdit" />
+  <update check="always"/>
+</jnlp>
